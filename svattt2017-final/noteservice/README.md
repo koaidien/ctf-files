@@ -9,3 +9,5 @@ Không rõ tại sao mình làm bài này bằng formatstring thì không chạy
     <p>- delete index 0.</p>
     <p>- Tạo note mới với size mình đoán được, vì mình không biết chính xác vùng này sẽ đặt vào fastbin nào nên mình thử với các độ dài khác nhau, cách nhau 0x10 bytes mỗi lần thử và quan trọng nhất là không protect.</p>
     <p>- Show flag thôi, flag bây giờ nằm ở index 0.</p>
+Tuy nhiên cách này có vấn đề là 8bytes đầu của flag sẽ bị mất khi in ra :( <br/>
+FLAG: SVATTT{note_service_note_service_:banana-dance:}
